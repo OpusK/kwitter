@@ -7,11 +7,14 @@
 - vs [AWS amplify](https://docs.amplify.aws/)
 
 ### Workflow
-- Create react app
-  > npx create-react-app kwitter
-- [Add Firebase JS project usign npm](https://www.npmjs.com/package/firebase)
-  - [Create Realtime Database](https://firebase.google.com/docs/database/web/start#create_a_database) first ([location table](https://firebase.google.com/docs/firestore/locations#location-r))
-  - To security (just for local build), add .env file ("REACT_APP_ prefix required for parsing by React)
+- Setup
+  - Create react app
+    > npx create-react-app kwitter
+  - [Add Firebase JS project usign npm](https://www.npmjs.com/package/firebase)
+    - [Create Realtime Database](https://firebase.google.com/docs/database/web/start#create_a_database) first ([location table](https://firebase.google.com/docs/firestore/locations#location-r))
+    - To security (just for local build), add .env file ("REACT_APP_ prefix required for parsing by React)
+  - Setup [react-router](https://reactrouter.com/web/guides/quick-start)
+    - Write codes for some routes (Router, Switch, Route)
 
 ---
 
